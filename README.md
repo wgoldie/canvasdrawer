@@ -18,4 +18,4 @@ After training for 15 minutes (canvas) and 3 hours (drawer) using GTX 1080Ti on 
 
 ![canvas perf](canvas_perf.png)
 
-![drawer perf][drawer_perf.png)
+![drawer perf](drawer_perf.png)
