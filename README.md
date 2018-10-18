@@ -11,5 +11,11 @@ The archetypical example is vectorized recreation of sketch drawings using bezie
 A canvas learns to render bezier curves to images.
 A drawer learns to reconstruct images using bezier curve coordinate vectors.
 
-Currently a WIP, but the models are implemented and training converges for most stages of the paper's MNIST generation task.
-CPU training is not yet supported.
+Currently a WIP, but the models are implemented and training converges for the paper's MNIST generation task.
+CPU training is not yet supported but simply requires refactoring.
+
+After training for 15 minutes (canvas) and 3 hours (drawer) using GTX 1080Ti on MNIST:
+
+![canvas perf](canvas_perf.png)
+
+![drawer perf][drawer_perf.png)
